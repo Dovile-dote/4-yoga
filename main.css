@@ -12,14 +12,10 @@ body {
 
 header,
 main {
-  /* background-color: aquamarine;  */
   width: 1000px;
   margin-left: calc(50% - 500px);
   display: inline-block;
-}
-
-main {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 header > img {
@@ -34,7 +30,7 @@ header > nav {
 
 nav > a {
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   margin-left: 20px;
   text-decoration: none;
@@ -51,30 +47,44 @@ nav > a:first-child {
   border-bottom: 2px solid red;
 }
 
-main > img {
-  float: left;
-  width: 55%;
-  height: 400px;
-  /* background-color: bisque; */
-  object-fit: contain;
-  object-position: center;
+main {
+  margin-top: 100px;
 }
 
 main > div {
   float: left;
   width: 45%;
   padding-right: 10%;
-  /* background-color: pink; */
 }
 
 div > h1 {
-
+  margin-bottom: 10px;
+  font-family: cursive;
+  font-weight: normal;
 }
 
-p {
+h1 > span {
+  color: tomato;
+}
 
+div > p {
+  margin-bottom: 25px;
 }
 
 div > a {
-  background-color: orange;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  background-color: tomato;
+}
+
+main > img {
+  float: left;
+  width: 55%;
+  height: 400px;
+  object-fit: contain;
+  object-position: center;
 }
